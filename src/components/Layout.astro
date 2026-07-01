@@ -1,0 +1,34 @@
+---
+import '../styles/global.css';
+const { title = 'Handufood', description = '汉都中華炸鸡创始人的个人网站，记录中華炸鸡品类开创、品牌建设、门店经营、供应链学习与餐饮创业实践。' } = Astro.props;
+const pageTitle = title === 'Handufood' ? title : `${title} · Handufood`;
+---
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content={description} />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>{pageTitle}</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="logo" href="/">Handufood</a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="/about">关于</a>
+        <a href="/workshops">交流</a>
+        <a href="/notes">笔记</a>
+        <a href="/projects">项目</a>
+        <a href="/contact">联系</a>
+      </nav>
+    </header>
+    <main>
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <span>© {new Date().getFullYear()} Handufood</span>
+      <span>Brand · Notes · Projects</span>
+    </footer>
+  </body>
+</html>
