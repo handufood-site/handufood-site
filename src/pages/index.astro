@@ -8,37 +8,123 @@ import Layout from '../components/Layout.astro';
     <h1>跳出品类限制，开创中華炸鸡。</h1>
     <p class="lead">我是汉都中華炸鸡的创始人。我们不是在做传统意义上的“中式炸鸡”，而是在开创“中華炸鸡”这个新方向。目前汉都中華炸鸡有 40 家门店，主要集中在南京和合肥。</p>
     <div class="actions">
-      <a class="button primary" href="/about">了解我的经历</a>
-      <a class="button" href="/projects">查看品牌项目</a>
-      <a class="button" href="/culture">企业文化</a>
+      <a class="button primary" href="#about">向下浏览</a>
+      <a class="button" href="/about">关于页面</a>
+      <a class="button" href="/projects">项目页面</a>
+      <a class="button" href="/culture">文化页面</a>
       <a class="button" href="/contact">联系交流</a>
     </div>
   </section>
 
-  <section class="section">
-    <h2>我正在做的事</h2>
-    <p class="lead">从 2011 年开始，我以职业加盟商的身份参与过多个餐饮品牌。2023 年第四季度，我开始关注炸鸡赛道，但我们希望跳出既有品类限制，重新定义属于我们的“中華炸鸡”。2024 年 12 月 12 日，汉都中華炸鸡第一家店开业。现在，我把主要精力投入到这个品牌的长期建设中。</p>
+  <section id="about" class="section page-section">
+    <p class="eyebrow">关于我</p>
+    <h2>从职业加盟商到中華炸鸡品类开创。</h2>
+    <p class="lead">我是汉都中華炸鸡的创始人。目前汉都中華炸鸡有 40 家门店，主要集中在南京和合肥。</p>
+
+    <div class="content-grid">
+      <div class="card feature-card">
+        <h3>从职业加盟商开始</h3>
+        <p>我之前是职业加盟商，从 2011 年开始加盟绝味鸭脖、正新鸡排、蜜雪冰城、喜茶等品牌。这个阶段让我长期在一线理解门店、产品、加盟体系和品牌运营。</p>
+      </div>
+      <div class="card feature-card">
+        <h3>开创中華炸鸡</h3>
+        <p>2023 年第四季度，我开始关注炸鸡赛道。但我们不是在做传统意义上的“中式炸鸡”，而是希望跳出品类限制，开创“中華炸鸡”这个新方向。</p>
+        <p>汉都中華炸鸡第一家店于 2024 年 12 月 12 日开业。</p>
+      </div>
+      <div class="card feature-card">
+        <h3>现在的重点</h3>
+        <p>目前我全身心地投入到汉都中華炸鸡的品牌建设中。这对我们来说挑战很大，所以从供应链到组织，我也在不断学习。</p>
+        <p>我希望通过这个网站记录真实的思考和实践，也希望和大家一起互相沟通、学习、共同精进。</p>
+      </div>
+    </div>
   </section>
 
-  <section class="section grid">
-    <a class="card" href="/projects">
+  <section id="projects" class="section page-section">
+    <p class="eyebrow">项目</p>
+    <h2>汉都中華炸鸡。</h2>
+    <p class="lead">这里记录我正在推进的品牌项目，包括品类定义、门店模型、产品打磨、供应链、组织建设和经营复盘。</p>
+
+    <div class="card feature-card">
       <h3>汉都中華炸鸡</h3>
-      <p>作为中華炸鸡的开创者，我们持续打磨产品、门店模型、供应链和组织能力。</p>
-    </a>
-    <a class="card" href="/notes">
-      <h3>经营笔记</h3>
-      <p>记录我对餐饮加盟、品牌建设、供应链、组织管理和门店经营的学习与思考。</p>
-    </a>
-    <a class="card" href="/workshops">
-      <h3>交流学习</h3>
-      <p>希望和餐饮行业的朋友互相沟通、共同学习，在真实经营中持续精进。</p>
-    </a>
+      <p>汉都中華炸鸡是我正在全身心投入建设的品牌。我们希望跳出传统“中式炸鸡”的品类限制，开创“中華炸鸡”这个新方向。</p>
+      <p>第一家店于 2024 年 12 月 12 日开业，目前门店数有 40 家，主要集中在南京和合肥。</p>
+      <p class="muted">状态：品牌建设中 / 中華炸鸡开创者</p>
+    </div>
   </section>
 
-  <section class="section">
-    <a class="card feature-card" href="/culture">
-      <h3>企业文化</h3>
-      <p>以真立身，以善同行，以美成事，以爱致远。围绕伙伴满意、盟商满意、顾客满意，建设长期可持续的经营文化。</p>
-    </a>
+  <section id="culture" class="section page-section culture-page">
+    <p class="eyebrow">企业文化</p>
+    <h2>以真立身，以善同行，以美成事，以爱致远。</h2>
+    <p class="lead">我们希望把企业文化落实到每一次产品打磨、每一家门店经营、每一位伙伴成长、每一位盟商支持和每一位顾客体验中。</p>
+
+    <div class="value-grid">
+      <div class="value-card">
+        <span class="value-word">真</span>
+        <h3>求真务实，坦诚相待</h3>
+        <p>我们坚持真实、务实的工作态度，尊重事实，坦诚沟通，以认真负责的方式面对每一项工作。</p>
+      </div>
+      <div class="value-card">
+        <span class="value-word">善</span>
+        <h3>向善而行，彼此成就</h3>
+        <p>我们相信善意能够形成长期关系。对伙伴、盟商和顾客，我们坚持互相支持、共同成长、彼此成就。</p>
+      </div>
+      <div class="value-card">
+        <span class="value-word">美</span>
+        <h3>追求卓越，创造美好</h3>
+        <p>我们追求更好的产品、更好的服务和更好的门店体验，在细节中持续提升，创造让人感到美好的餐饮体验。</p>
+      </div>
+      <div class="value-card">
+        <span class="value-word">爱</span>
+        <h3>以爱为道，兼济天下</h3>
+        <p>我们以爱作为长期经营的底色，关心伙伴成长，支持盟商发展，服务顾客生活，并努力为社会创造积极价值。</p>
+      </div>
+    </div>
+
+    <div class="subsection">
+      <h3>运营目标</h3>
+      <ol class="goal-list">
+        <li>伙伴满意</li>
+        <li>盟商满意</li>
+        <li>顾客满意</li>
+      </ol>
+      <p>我们希望通过伙伴成长、盟商支持和顾客体验的持续提升，形成健康、稳定、可持续的经营循环。</p>
+    </div>
+  </section>
+
+  <section id="notes" class="section page-section">
+    <p class="eyebrow">笔记</p>
+    <h2>真实、可复盘、可交流。</h2>
+    <p class="lead">这里会发布我在餐饮创业和品牌建设过程中的公开笔记。内容不追求完整，更重视真实、可复盘、可交流。</p>
+    <ul class="pill-list">
+      <li>中華炸鸡品类思考</li>
+      <li>品牌建设与门店模型</li>
+      <li>供应链学习</li>
+      <li>组织管理</li>
+      <li>门店经营复盘</li>
+      <li>职业加盟商经验</li>
+    </ul>
+  </section>
+
+  <section id="workshops" class="section page-section">
+    <p class="eyebrow">交流与学习</p>
+    <h2>互相沟通，共同精进。</h2>
+    <p class="lead">品牌建设不是一个人闭门完成的事情。我希望和餐饮行业的朋友、创业者、供应链伙伴、门店经营者保持交流，一起学习、共同精进。</p>
+    <ul class="pill-list">
+      <li>中華炸鸡品类交流</li>
+      <li>餐饮品牌建设</li>
+      <li>供应链与产品稳定性</li>
+      <li>组织能力与人才培养</li>
+      <li>门店经营与加盟体系</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="section page-section">
+    <p class="eyebrow">联系</p>
+    <h2>欢迎交流。</h2>
+    <p class="lead">如果你想交流餐饮创业、中華炸鸡、品牌建设、供应链、组织管理或门店经营，欢迎联系我。</p>
+    <div class="card feature-card contact-card">
+      <p>手机号：13913999509</p>
+      <p>Email：<a href="mailto:94234646@qq.com">94234646@qq.com</a></p>
+    </div>
   </section>
 </Layout>
